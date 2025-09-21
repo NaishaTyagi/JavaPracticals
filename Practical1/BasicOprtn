@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+class BasicOprtn {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Take input
+        System.out.print("Enter first number: ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter second number: ");
+        int b = sc.nextInt();
+
+        // Basic operations
+        int sum = a + b;
+        int diff = a - b;
+        int product = a * b;
+        int quotient = a / b;  // assuming b != 0
+
+        // Output results
+  System.out.println("Naisha,24csu315");
+        System.out.println("Sum = " + sum);
+        System.out.println("Difference = " + diff);
+        System.out.println("Product = " + product);
+        System.out.println("Quotient = " + quotient);
+
+        sc.close();
+    }
+}
